@@ -1,0 +1,30 @@
+.slide4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32em;
+
+  .icon {
+    margin-top: 0.6em;
+    color: #664DE6;
+    font-size: 8em;
+    margin-left: 1.19em;
+  }
+
+
+  .main-text {
+    margin-top: 1.5em;
+    font-weight: 500;
+    font-size: 43px;
+
+  }
+
+  .sub-text {
+    padding: 1em;
+    font-size: 15px;
+    color: #767D8D;
+    margin-bottom: 1.8em;
+
+  }
+
+}

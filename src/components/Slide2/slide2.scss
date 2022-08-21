@@ -1,0 +1,39 @@
+.slide2 {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .main-text {
+    margin-top: 1.5em;
+    font-weight: 500;
+    font-size: 43px;
+  }
+
+  .sub-text {
+    padding: 1em;
+    margin-left: 9em;
+    font-size: 15px;
+    color: #767D8D;
+    margin-bottom: 1.8em;
+  }
+
+  .optional {
+    font-size: 15px;
+    color: #a9adb6;
+  }
+
+  .button2 {
+    background-color: #ffff;
+    color: #a9adb6;
+    padding: 18px;
+    border: 2px solid #EAEFF6 !important;
+    border-radius: 5px;
+    width: 39em;
+    margin-bottom: 2em;
+  }
+
+
+}
