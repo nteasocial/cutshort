@@ -8,7 +8,7 @@ export function Header() {
       <span className='child icon'>
         <img className='logo' src={Logo} alt="cutshort" />
       </span>
-      <span className="child title">
+      <span className="child titles">
         Cutshort
       </span>
     </div>

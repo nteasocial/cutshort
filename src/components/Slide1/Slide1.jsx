@@ -11,18 +11,16 @@ export function Slide1() {
         <div className="sub-text">
           You can always change them later.
         </div>
+        
+        <label for="fname" className='title'>Full Name</label>
+        <div>
+          <input type="text" id="fname" className=' foc buttons' placeholder='Steve Jobs' />
+        </div>
 
-        <p className="title">
-          Full Name
-        </p>
-        <div className="button">Steve Jobs</div>
-
-
-        <p className="title">
-          Display Name
-        </p>
-        <div className="button">Steve</div>
-
+        <label for="fname" className='title'> Display Name </label>
+        <div>
+          <input type="text" id="fname" className=' foc buttons' placeholder='Steve' />
+        </div>
 
       </div>
     </div>

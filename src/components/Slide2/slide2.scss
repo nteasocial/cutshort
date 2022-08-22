@@ -1,6 +1,4 @@
 .slide2 {
-  margin-top: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +15,17 @@
     margin-left: 9em;
     font-size: 15px;
     color: #767D8D;
-    margin-bottom: 1.8em;
+    margin-bottom: 3em;
+  }
+
+  .part{
+    position: relative;
+      left: 4em;
+
+      .title{
+        position: relative;
+        bottom: 8px;
+      }
   }
 
   .optional {
@@ -25,15 +33,37 @@
     color: #a9adb6;
   }
 
+  .eden{
+    padding: 16px;
+    border: 2px solid #EAEFF6;
+    border-radius: 5px;
+    background-color: #EAEFF6;
+    color: #767D8D;
+    cursor: not-allowed;
+  }
+
+  .foc:focus{
+    color: black;
+  }
+  
   .button2 {
     background-color: #ffff;
     color: #a9adb6;
     padding: 18px;
     border: 2px solid #EAEFF6 !important;
     border-radius: 5px;
-    width: 39em;
+    width: 31em;
     margin-bottom: 2em;
   }
 
+  .button3{
+      background-color: #ffff;
+      color: #a9adb6;
+      padding: 18px;
+      border: 2px solid #EAEFF6 !important;
+      border-radius: 5px;
+      width: 19.6em;
+      margin-bottom: 2em;
+  }
 
 }

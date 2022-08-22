@@ -5,13 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 .content {
   align-items: center;
-  width: 400px;
+  width: 450px;
 }
 
 .progressbar {
@@ -19,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  left: -37px;
 }
 
 .progressbar::before {
@@ -72,10 +71,15 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  position: absolute;
+  bottom: 4em;
+  right: 32em;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .btn {
-  padding: 20px 60px;
+  padding: 20px 11.1rem;
   font-weight: bold;
   background-color: #664DE6;
   color: white;
@@ -84,7 +88,6 @@
   font-size: 14px;
   border: 0;
   border-radius: 5px;
-  margin: 5px;
 }
 
 .btn.active {

@@ -12,16 +12,18 @@ export function Slide2() {
           You can always create another workspace later.
         </div>
 
-        <p className="title">
-          Workspace Name
-        </p>
-        <div className="button2">Steve Jobs</div>
+        <div className="part">
+        <label for="fname" className='title'>Workspace Name</label>
+        <div>
+        <input type="text" id="fname" className='foc button2' placeholder='Eden' />
+        </div>
 
-
-        <p className="title">
-          Workspace url <span className='optional'>(optional)</span>
-        </p>
-        <div className="button2">Steve</div>
+        <label for="fname" className='title'>Workspace Url <span className='optional'>(optional)</span></label>
+        <div>
+          <span className='eden'>www.eden.com/</span>
+          <input type="text" id="fname" className='foc button3' placeholder='Example' />
+          </div>
+        </div>
 
 
       </div>

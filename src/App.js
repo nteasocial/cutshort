@@ -7,22 +7,21 @@ import { Slide3 } from './components/Slide3/Slide3';
 import { Slide4 } from './components/Slide4/Slide4';
 import { Header } from './common/Header/Header'
 import ProgressBar from './common/Progress/ProgressBar';
-import Button from './common/Button/Button';
-
 
 function App() {
+
+ 
   return (
     <div className="App">
       <div className="card">
         <Header />
-        <ProgressBar />
+         <ProgressBar /> 
         <Routes>
-          <Route path="/" element={<Slide1 />} />
+          <Route path="" element={<Slide1 />} />
           <Route path="/2" element={<Slide2 />} />
           <Route path="/3" element={<Slide3 />} />
           <Route path="/4" element={<Slide4 />} />
         </Routes >
-        <Button />
       </div>
     </div>
   );

@@ -17,19 +17,27 @@
     margin-left: 9em;
     font-size: 15px;
     color: #767D8D;
-    margin-bottom: 1.8em;
+    margin-bottom: 3.3em;
   }
 
+  .title {
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 20px;
+  }
 
-  .button {
+  .foc:focus {
+    color: black;
+  }
+
+  .buttons {
     background-color: #ffff;
     color: #a9adb6;
     padding: 18px;
     border: 2px solid #EAEFF6 !important;
     border-radius: 5px;
     width: 32em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
   }
-
-
+  
 }
